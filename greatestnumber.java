@@ -8,7 +8,8 @@ public class greatestnumber {
         int b = numbers.nextInt();
         int c = numbers.nextInt();
 	int d = numbers.nextInt();
-        System.out.println("The greatest number is: " + Math.max(a, Math.max(b, Math.max(c, d))));
+	int e = numbers.nextInt();
+        System.out.println("The greatest number is: " + Math.max(a, Math.max(b, Math.max(c, Math.max(d, e)))));
     }
 
 }
